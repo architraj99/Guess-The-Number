@@ -71,10 +71,20 @@ button {
     font-size: 16px;
     cursor: pointer;
     transition: 0.2s;
+    margin-bottom: 12px;
 }
 
 button:hover {
     background: #1d4ed8;
+}
+
+#restartBtn {
+    background: #0f172a;
+    display: none;
+}
+
+#restartBtn:hover {
+    background: #020617;
 }
 
 .message {
