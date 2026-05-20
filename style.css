@@ -10,38 +10,60 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to bottom, #bfdbfe, #eff6ff);
+    background: linear-gradient(to bottom, #0f172a, #020617);
 }
 
 .game-card {
 
-    width: 400px;
-    background: white;
+    width: 420px;
+    background: #111827;
     padding: 34px;
-    border-radius: 26px;
+    border-radius: 28px;
     text-align: center;
-    box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+    border: 1px solid #1e293b;
+    box-shadow: 0 14px 40px rgba(221, 41, 212, 0.4);
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 18px;
 }
 
 .top-badge {
 
     display: inline-block;
+    font-variant: small-caps;
     padding: 8px 14px;
     border-radius: 999px;
-    background: #dbeafe;
-    color: #2563eb;
+
+    background: #6d25cc;
+    color: #bfdbfe;
+    
     font-size: 14px;
-    margin-bottom: 18px;
+}
+
+.mode-box {
+    color: #cbd5e1;
+    font-size: 14px;
+}
+
+select {
+    padding: 6px 10px;
+    border-radius: 8px;
+    border: none;
+    background: #1e293b;
+    color: white;
 }
 
 h1 {
-
-    color: #0f172a;
+    color: white;
     margin-bottom: 10px;
 }
 
 .subtitle {
-    color: #64748b;
+    color: #94a3b8;
     margin-bottom: 24px;
 }
 
@@ -50,18 +72,24 @@ input {
     width: 100%;
     padding: 14px;
     border-radius: 12px;
-    border: 1px solid #cbd5e1;
+    border: 1px solid #334155;
+
+    background: #0f172a;
+    color: white;
+
     font-size: 16px;
+
     margin-bottom: 16px;
+
     outline: none;
 }
 
 input:focus {
-    border-color: #2563eb;
+    border-color: #3b82f6;
 }
 
 button {
-    
+
     width: 100%;
     padding: 14px;
     border: none;
@@ -74,28 +102,37 @@ button {
     margin-bottom: 12px;
 }
 
+.attempts {
+    color:#94a3b8;
+    font-size: 14px;
+}
+
 button:hover {
+    transform: scale(1.02);
     background: #1d4ed8;
 }
 
 #restartBtn {
-    background: #0f172a;
+    background: #334155;
     display: none;
 }
 
 #restartBtn:hover {
-    background: #020617;
+    background: #475569;
 }
 
 .message {
     margin-top: 22px;
     font-weight: bold;
-    color: #334155;
+    color: #e2e8f0;
     font-size: 18px;
+    min-height: 24px;
 }
 
-.attempts {
-    margin-top: 14px;
-    color: #64748b;
+.stats {
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-between;
+    color: #94a3b8;
     font-weight: bold;
 }

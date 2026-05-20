@@ -11,23 +11,33 @@
 
     <div class="game-card">
 
-        <div class="top-badge">
-            Number Game
+        <div class="top-section">
+
+            
+            <div class="top-badge">
+                Number Game
+            </div>
+
+            <div class="mode-box">
+                Difficulty: <select id="difficulty"> 
+                <option value="50">Easy</option>
+                <option value="100" selected>Medium</option>
+                <option value="200">Hard</option>
+                </select>
+            </div>
+
         </div>
+
 
         <h1>
             Guess The Number 
         </h1>
 
         <p class="subtitle">
-            Guess a number between 1 and 100
+            Guess the secret number
         </p>
 
-        <input
-            type="number"
-            id="guessInput"
-            placeholder="Enter your guess"
-        >
+        <input type="number" id="guessInput" placeholder="Enter your guess">
 
         <button id="guessBtn">
             Check Guess
@@ -41,9 +51,18 @@
             Start guessing...
         </div>
 
-        <div class="attempts">
-            Attempts: 0 / 10
+        <div class="stats">
+
+            <div class="attempts">
+                Attempts: 0 / 10
+            </div>
+
+            <div class="best-score">
+                Best: 0
+            </div>
+
         </div>
+
 
     </div>
 
