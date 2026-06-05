@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guess The Number</title>
-
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,31 +12,31 @@
 
         <div class="top-section">
 
-            
             <div class="top-badge">
                 Number Game
             </div>
 
             <div class="mode-box">
-                Difficulty: <select id="difficulty"> 
-                <option value="50">Easy</option>
-                <option value="100" selected>Medium</option>
-                <option value="200">Hard</option>
+                Difficulty:
+                <select id="difficulty">
+                    <option value="50">Easy</option>
+                    <option value="100" selected>Medium</option>
+                    <option value="200">Hard</option>
                 </select>
             </div>
 
         </div>
 
-
-        <h1>
-            Guess The Number 
-        </h1>
+        <h1>Guess The Number</h1>
 
         <p class="subtitle">
-            Guess the secret number
+            Guess a number and see if you can win.
         </p>
 
-        <input type="number" id="guessInput" placeholder="Enter your guess">
+        <input
+            type="number"
+            id="guessInput"
+            placeholder="Enter your guess">
 
         <button id="guessBtn">
             Check Guess
@@ -54,7 +53,7 @@
         <div class="stats">
 
             <div class="attempts">
-                Attempts: 0 / 10
+                Attempts: 0/10
             </div>
 
             <div class="best-score">
@@ -62,7 +61,6 @@
             </div>
 
         </div>
-
 
     </div>
 
