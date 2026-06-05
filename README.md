@@ -48,4 +48,4 @@ The game includes multiple difficulty levels to make gameplay more interesting.
 
 
 # Screenshots
-<img width="872" height="736" alt="image" src="https://github.com/user-attachments/assets/f4920fe6-efd1-404f-b21e-e75f386837af" />
+<img width="770" height="553" alt="image" src="https://github.com/user-attachments/assets/dda7564b-652e-464f-8df9-03d258dbfcae" />
